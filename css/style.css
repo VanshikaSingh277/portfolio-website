@@ -202,6 +202,7 @@ section{padding:6rem 5vw;position:relative;z-index:1}
 .proj-inner{max-width:1200px;margin:0 auto}
 .proj-filter{
   display:flex;justify-content:flex-end;margin-bottom:2.5rem;
+  position:relative;z-index:20;
 }
 .filter-btn{
   display:flex;align-items:center;gap:0.5rem;
@@ -216,7 +217,7 @@ section{padding:6rem 5vw;position:relative;z-index:1}
   position:absolute;top:calc(100% + 8px);right:0;
   background:var(--card);border:1px solid var(--border2);
   border-radius:12px;padding:0.5rem;min-width:220px;
-  display:none;z-index:10;
+  display:none;z-index:1000;max-width:min(220px,calc(100vw - 2rem));
 }
 .filter-dropdown.open{display:block}
 .filter-dropdown-title{
@@ -453,6 +454,9 @@ footer{
 @media(max-width:600px){
   .proj-grid{grid-template-columns:1fr}
   .skills-grid{grid-template-columns:1fr}
+  .proj-filter{justify-content:flex-start}
+  .filter-btn{width:100%;justify-content:space-between}
+  .filter-dropdown{left:0;right:auto}
 }
 .hero-actions{
     display: flex;
