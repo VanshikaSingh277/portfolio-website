@@ -53,8 +53,41 @@ themeBtn.addEventListener('click',()=>{
 });
 
 // Contact form
-document.getElementById('cForm').addEventListener('submit',function(e){
+const contactForm = document.getElementById('cForm');
+const formOk = document.getElementById('form-ok');
+
+contactForm.addEventListener('submit', async function(e){
   e.preventDefault();
-  this.style.display='none';
-  document.getElementById('form-ok').style.display='block';
+
+  const submitBtn = this.querySelector('.cform-submit');
+  const originalLabel = submitBtn.textContent;
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Sending...';
+
+  try {
+    const response = await fetch(this.action, {
+      method: 'POST',
+      body: new FormData(this),
+      headers: { Accept: 'application/json' }
+    });
+
+    if (!response.ok) {
+      throw new Error('Form submission failed');
+    }
+
+    this.reset();
+    formOk.style.display = 'block';
+    submitBtn.textContent = 'Sent ✓';
+  } catch (error) {
+    submitBtn.disabled = false;
+    submitBtn.textContent = originalLabel;
+    alert('Message could not be sent right now. Please try again or email me directly.');
+    return;
+  }
+
+  setTimeout(() => {
+    submitBtn.disabled = false;
+    submitBtn.textContent = originalLabel;
+  }, 1800);
 });
+

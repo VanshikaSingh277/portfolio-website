@@ -451,27 +451,36 @@
       </div>
       <div class="rv">
         <div class="contact-form-card">
-          <form id="cForm">
-            <div class="cform-group">
-              <div class="cform-input-wrap">
-                <span class="cform-icon">👤</span>
-                <input type="text" placeholder="Your Name" required/>
-              </div>
-            </div>
-            <div class="cform-group">
-              <div class="cform-input-wrap">
-                <span class="cform-icon">✉️</span>
-                <input type="email" placeholder="Your Email Address" required/>
-              </div>
-            </div>
-            <div class="cform-group">
-              <div class="cform-input-wrap textarea-wrap">
-                <span class="cform-icon">💬</span>
-                <textarea placeholder="Your Message..." required></textarea>
-              </div>
-            </div>
-            <button type="submit" class="cform-submit">Send Message ➤</button>
-          </form>
+         <form id="cForm" action="https://api.web3forms.com/submit" method="POST">
+                    
+  <input type="hidden" name="access_key" value="c1351246-4797-4d53-a603-7adbac35ffe6">
+
+  <div class="cform-group">
+    <div class="cform-input-wrap">
+      <span class="cform-icon">👤</span>
+      <input type="text" name="name" placeholder="Your Name" required>
+    </div>
+  </div>
+
+  <div class="cform-group">
+    <div class="cform-input-wrap">
+      <span class="cform-icon">✉️</span>
+      <input type="email" name="email" placeholder="Your Email Address" required>
+    </div>
+  </div>
+
+  <div class="cform-group">
+    <div class="cform-input-wrap textarea-wrap">
+      <span class="cform-icon">💬</span>
+      <textarea name="message" placeholder="Your Message..." required></textarea>
+    </div>
+  </div>
+
+  <button type="submit" class="cform-submit">
+    Send Message ➤
+  </button>
+
+</form>
           <div id="form-ok">✓ Message sent! I'll get back to you within 24 hours.</div>
         </div>
       </div>
