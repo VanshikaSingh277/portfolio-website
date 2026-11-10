@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Languages",
+    "icon": "☕",
+    "items": [
+      "Java",
+      "Python",
+      "C",
+      "SQL"
+    ]
+  },
+  {
+    "name": "Backend",
+    "icon": "⚙️",
+    "items": [
+      "Spring Boot",
+      "Spring Security",
+      "Spring AI",
+      "REST APIs",
+      "JPA/Hibernate",
+      "JWT"
+    ]
+  },
+  {
+    "name": "Frontend",
+    "icon": "🎨",
+    "items": [
+      "React.js",
+      "Angular",
+      "HTML5",
+      "CSS3"
+    ]
+  },
+  {
+    "name": "DevOps & Tools",
+    "icon": "🛠️",
+    "items": [
+      "Git & GitHub",
+      "Docker",
+      "Jenkins",
+      "Linux",
+      "Postman"
+    ]
+  },
+  {
+    "name": "CS Core",
+    "icon": "🧠",
+    "items": [
+      "Data Structures & Algorithms",
+      "OOPs",
+      "DBMS",
+      "OS",
+      "Computer Networks"
+    ]
+  },
+  {
+    "name": "Competitive Programming",
+    "icon": "🏆",
+    "items": [
+      "LeetCode 1635",
+      "GeeksforGeeks 300+",
+      "CodeChef",
+      "Codeforces"
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "period": "Sept 2026 - present",
+    "icon": "💻",
+    "role": "Web Developer",
+    "company": "Thinkyantra Solution Pvt. Ltd",
+    "badge": "Ongoing",
+    "points": [
+      "Developing responsive web interfaces using React for client and company projects",
+      "Contributing to frontend and backend integration using REST APIs and application workflows",
+      "Working with databases to support application data management and backend functionality",
+      "Collaborating on client projects and implementing responsive UI features based on project requirements"
+    ],
+    "tags": [
+      "React",
+      "JavaScript",
+      "REST APIs",
+      "Databases",
+      "Responsive Design",
+      "Full Stack"
+    ]
+  },
+  {
+    "period": "May 2026- Jul 2026",
+    "icon": "🤖",
+    "role": "Research Intern – Generative AI",
+    "company": "Malaviya National Institute of Technology (MNIT), Jaipur",
+    "badge": "On-site",
+    "points": [
+      "Conducting research in Generative AI and Workflow Automation.",
+      "Exploring Large Language Models (LLMs), Prompt Engineering, and AI-driven automation pipelines.",
+      "Working on document understanding, information extraction, and intelligent workflow systems.",
+      "Studying modern AI frameworks and evaluating practical applications of Generative AI."
+    ],
+    "tags": [
+      "Generative AI",
+      "LLMs",
+      "Prompt Engineering",
+      "Workflow Automation",
+      "Research"
+    ]
+  },
+  {
+    "period": "Jun 2025 – Jul 2025",
+    "icon": "☕",
+    "role": "Java Spring Boot Intern",
+    "company": "Client Project — Security Management System",
+    "badge": "On-site",
+    "points": [
+      "Migrated legacy EJB modules to Spring Boot MVC architecture",
+      "Integrated Angular frontend with backend REST APIs",
+      "Optimized modular code structure and authentication workflows"
+    ],
+    "tags": [
+      "Java",
+      "Spring Boot",
+      "Angular",
+      "JWT",
+      "REST APIs"
+    ]
+  },
+  {
+    "period": "Jul 2024",
+    "icon": "🌐",
+    "role": "Web Development Intern",
+    "company": "SKIT Jaipur",
+    "badge": "On-site",
+    "points": [
+      "Developed responsive web pages for the institute",
+      "Improved UI/UX across multiple components"
+    ],
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }
+]

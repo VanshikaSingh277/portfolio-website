@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Portfolio Admin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="theme.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="dot-float" aria-hidden="true"></div>
+  <div class="dot-float" aria-hidden="true"></div>
+
+  <!-- Login -->
+  <main id="login-view" class="login" hidden>
+    <form id="login-form" class="login-card">
+      <h1><span class="bracket">&lt;&gt;</span> Portfolio <span class="hl">admin</span></h1>
+      <p class="muted">Local editing only. Enter the ADMIN_PASSWORD from backend/.env.</p>
+      <label for="login-password">Password</label>
+      <input id="login-password" type="password" autocomplete="current-password" required autofocus />
+      <p id="login-error" class="error-text" role="alert"></p>
+      <button type="submit" class="btn primary">Log in</button>
+    </form>
+  </main>
+
+  <!-- Editor -->
+  <div id="app-view" class="app" hidden>
+    <aside class="sidebar">
+      <div class="brand">
+        <span><span class="bracket">&lt;&gt;</span> SVanshika <span class="brand-sub">admin</span></span>
+        <button type="button" class="theme-btn" data-theme-toggle title="Toggle theme" aria-label="Toggle light or dark theme">☀️</button>
+      </div>
+      <nav id="nav" aria-label="Sections">
+        <button type="button" data-section="profile"><span>Profile</span></button>
+        <button type="button" data-section="projects"><span>Projects</span><span class="count" data-count="projects"></span></button>
+        <button type="button" data-section="experience"><span>Experience</span><span class="count" data-count="experience"></span></button>
+        <button type="button" data-section="skills"><span>Tools and skills</span><span class="count" data-count="skills"></span></button>
+        <button type="button" data-section="pagetext"><span>Page text</span></button>
+        <button type="button" data-section="site"><span>Site &amp; SEO</span><span class="count" data-count="site" title="FAQ questions"></span></button>
+        <button type="button" data-section="resume"><span>Resume</span></button>
+        <button type="button" data-section="history"><span>History</span></button>
+      </nav>
+      <div class="sidebar-foot">
+        <a href="/site/" target="_blank" rel="noopener" class="pill">View site ↗</a>
+        <button type="button" id="logout-btn" class="pill">Sign out</button>
+      </div>
+    </aside>
+
+    <div class="main">
+      <header class="toolbar">
+        <div class="toolbar-heading">
+          <h2 id="section-title">Profile</h2>
+          <p id="section-sub" class="subtitle"></p>
+        </div>
+        <div class="toolbar-actions">
+          <span id="save-status" class="status" aria-live="polite">All changes saved</span>
+          <button type="button" id="save-btn" class="btn primary" title="Ctrl+S">Save changes</button>
+          <button type="button" id="export-btn" class="btn accent" title="Same as npm run export">Export to site</button>
+        </div>
+      </header>
+      <div id="messages" aria-live="polite"></div>
+      <section id="section-body" class="section-body"></section>
+    </div>
+  </div>
+</body>
+</html>

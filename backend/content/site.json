@@ -1,0 +1,84 @@
+{
+  "logo": "SVanshika",
+  "nav": [
+    {
+      "id": "home",
+      "label": "Home"
+    },
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "skills",
+      "label": "Skills"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
+    },
+    {
+      "id": "experience",
+      "label": "Experience"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
+  ],
+  "headings": {
+    "about": {
+      "text": "About",
+      "highlight": "Me"
+    },
+    "skills": {
+      "text": "My",
+      "highlight": "Skills"
+    },
+    "projects": {
+      "text": "My",
+      "highlight": "Creations"
+    },
+    "experience": {
+      "text": "Where I've",
+      "highlight": "Worked"
+    },
+    "faq": {
+      "text": "Frequently Asked",
+      "highlight": "Questions"
+    },
+    "contact": {
+      "text": "Let's",
+      "highlight": "Connect"
+    }
+  },
+  "hero": {
+    "resumeButton": "📄 Download Resume",
+    "scrollButton": "Scroll to Explore ↓"
+  },
+  "about": {
+    "cardIcon": "✨",
+    "cardTitle": "My Journey & Passions"
+  },
+  "projects": {
+    "filterLabel": "🔽 Filter by:",
+    "categoriesTitle": "Categories",
+    "allLabel": "All"
+  },
+  "contact": {
+    "title": "Have a project in mind or just want to say hi?",
+    "intro": "I'm always excited to discuss new ideas, collaborations, or opportunities. Fill out the form, or reach out via my contact details. Let's create something amazing together!",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email Address",
+    "messagePlaceholder": "Your Message...",
+    "submitButton": "Send Message ➤",
+    "successMessage": "✓ Message sent! I'll get back to you within 24 hours."
+  },
+  "footer": {
+    "tagline": "Aspiring backend engineer transforming ideas into robust, scalable applications. Let's build something great together.",
+    "linksTitle": "Quick Links",
+    "connectTitle": "Let's Connect",
+    "connectText": "Interested in collaborating or have an opportunity? I'd love to hear from you.",
+    "connectButton": "Get in Touch"
+  }
+}

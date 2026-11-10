@@ -1,0 +1,120 @@
+# Vanshika Singh Chauhan
+
+> Vanshika Singh Chauhan is a backend developer from Jaipur building secure REST APIs with Java, Spring Boot and Spring AI. B.Tech IT at SKIT, 550+ DSA solved.
+
+## About
+
+Vanshika Singh Chauhan is a backend developer from Jaipur, India, and a B.Tech Information Technology student at SKIT Jaipur who builds secure, scalable REST APIs and AI-powered applications with Java, Spring Boot and Spring AI.
+
+As a B.Tech IT student at SKIT Jaipur, I'm deeply immersed in backend engineering and algorithmic problem-solving. My journey is fueled by a drive to build scalable, secure systems — from REST APIs to AI-powered assistants using Spring Boot and Spring AI.
+
+Beyond backend work, I'm a competitive programmer with 550+ solved problems across LeetCode, GeeksforGeeks, CodeChef, and Codeforces. I qualified Smart India Hackathon 2025 (Round 1) and constantly push myself through weekly contests to sharpen my problem-solving edge.
+
+- Role: Backend Developer
+- Current position: Web Developer, Thinkyantra Solution Pvt. Ltd
+- Location: Jaipur, Rajasthan, India
+- Education: Bachelor of Technology — Information Technology, SWAMI KESHVANAND INSTITUTE OF TECHNOLOGY (2023–2027), CGPA 9.00/10.00
+- Website: https://vanshikasingh.vercel.app/
+
+## Experience
+
+### Web Developer — Thinkyantra Solution Pvt. Ltd (Sept 2026 - present)
+
+- Developing responsive web interfaces using React for client and company projects
+- Contributing to frontend and backend integration using REST APIs and application workflows
+- Working with databases to support application data management and backend functionality
+- Collaborating on client projects and implementing responsive UI features based on project requirements
+
+Skills: React, JavaScript, REST APIs, Databases, Responsive Design, Full Stack
+
+### Research Intern – Generative AI — Malaviya National Institute of Technology (MNIT), Jaipur (May 2026- Jul 2026)
+
+- Conducting research in Generative AI and Workflow Automation.
+- Exploring Large Language Models (LLMs), Prompt Engineering, and AI-driven automation pipelines.
+- Working on document understanding, information extraction, and intelligent workflow systems.
+- Studying modern AI frameworks and evaluating practical applications of Generative AI.
+
+Skills: Generative AI, LLMs, Prompt Engineering, Workflow Automation, Research
+
+### Java Spring Boot Intern — Client Project — Security Management System (Jun 2025 – Jul 2025)
+
+- Migrated legacy EJB modules to Spring Boot MVC architecture
+- Integrated Angular frontend with backend REST APIs
+- Optimized modular code structure and authentication workflows
+
+Skills: Java, Spring Boot, Angular, JWT, REST APIs
+
+### Web Development Intern — SKIT Jaipur (Jul 2024)
+
+- Developed responsive web pages for the institute
+- Improved UI/UX across multiple components
+
+Skills: HTML, CSS, JavaScript
+
+## Projects
+
+### Security Management System (Jun 2025)
+
+Modernized a legacy EJB-based application into a Spring Boot MVC architecture with secure authentication, REST APIs, and role-based access control.
+
+Technologies: Java, Spring Boot, Spring Security, JWT, JPA, Angular
+Note: Client Project • Confidential
+
+### Smart Email Assist (2025)
+
+AI-powered email assistant built with Spring AI and Gemini API that generates intelligent email replies through prompt-driven automation.
+
+Technologies: Java, Spring Boot, Spring AI, Gemini API, React
+- [View Details](https://github.com/VanshikaSingh277/Email-assist)
+
+### Personal Portfolio Website (2026)
+
+Fully responsive portfolio website showcasing projects, skills, coding profiles, experience, and achievements with modern UI, animations, and dark/light mode support.
+
+Technologies: HTML5, CSS3, JavaScript, Responsive Design
+- [Live Demo](https://vanshikasingh.vercel.app/)
+- [GitHub Repository](https://github.com/VanshikaSingh277/portfolio)
+
+## Skills
+
+- Languages: Java, Python, C, SQL
+- Backend: Spring Boot, Spring Security, Spring AI, REST APIs, JPA/Hibernate, JWT
+- Frontend: React.js, Angular, HTML5, CSS3
+- DevOps & Tools: Git & GitHub, Docker, Jenkins, Linux, Postman
+- CS Core: Data Structures & Algorithms, OOPs, DBMS, OS, Computer Networks
+- Competitive Programming: LeetCode 1635, GeeksforGeeks 300+, CodeChef, Codeforces
+
+## Frequently asked questions
+
+### Who is Vanshika Singh Chauhan?
+
+Vanshika Singh Chauhan is a backend developer from Jaipur, India, and a B.Tech Information Technology student at Swami Keshvanand Institute of Technology (SKIT), Jaipur. She builds secure, scalable REST APIs and AI-powered applications with Java, Spring Boot and Spring AI.
+
+### What does Vanshika Singh Chauhan specialise in?
+
+She specialises in backend development with Java, Spring Boot, Spring Security, JPA/Hibernate and JWT authentication, and in AI integrations with Spring AI. She is also a competitive programmer with 550+ problems solved across LeetCode, GeeksforGeeks, CodeChef and Codeforces.
+
+### What is Vanshika's current role?
+
+She is a Research Intern in Generative AI at Malaviya National Institute of Technology (MNIT), Jaipur, working on large language models, prompt engineering, document understanding and AI workflow automation.
+
+### Where does Vanshika study?
+
+She is pursuing a Bachelor of Technology in Information Technology at Swami Keshvanand Institute of Technology (SKIT), Jaipur (2023–2027), with a CGPA of 9.00 out of 10.
+
+### What projects has Vanshika built?
+
+Her projects include a Security Management System that migrated a legacy EJB application to Spring Boot MVC with JWT and role-based access control, Smart Email Assist, an AI email-reply assistant built with Spring AI and the Gemini API, and this responsive portfolio website.
+
+### How can I contact Vanshika Singh Chauhan?
+
+Email her at chauhanvanshika277@gmail.com, use the contact form on this site, or connect with her on LinkedIn or GitHub.
+
+## Contact
+
+- Email: chauhanvanshika277@gmail.com
+- [Contact form](https://vanshikasingh.vercel.app/#contact)
+- [Resume (PDF)](https://vanshikasingh.vercel.app/resume/VANSHIKA_RESUME.pdf)
+- [GitHub](https://github.com/VanshikaSingh277)
+- [LinkedIn](https://www.linkedin.com/in/vanshika-singh-chauhan-288bb2321/)
+- [Codolio](https://codolio.com/profile/vanshika277)

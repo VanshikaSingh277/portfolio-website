@@ -7,7 +7,8 @@ const ro = new IntersectionObserver((entries) => {
 document.querySelectorAll('.rv').forEach(el=>ro.observe(el));
 
 // Active nav link on scroll
-const secs = ['home','about','skills','projects','experience','contact'];
+// Sections come from the nav menu, which is generated from backend/content/site.json
+const secs = [...document.querySelectorAll('.nav-links a[href^="#"]')].map(a=>a.getAttribute('href').slice(1));
 window.addEventListener('scroll',()=>{
   const y = window.scrollY + 120;
   secs.forEach(id=>{
@@ -31,7 +32,8 @@ document.addEventListener('click',e=>{
     document.getElementById('filterDropdown').classList.remove('open');
 });
 function setFilter(cat, el){
-  document.getElementById('filterLabel').textContent = cat;
+  // Show the option's label (e.g. "AI / Automation"), not its internal id
+  document.getElementById('filterLabel').textContent = el.textContent.replace('✓','').trim();
   document.querySelectorAll('.filter-opt').forEach(o=>{o.classList.remove('selected');o.querySelector('.check').textContent='';});
   el.classList.add('selected');el.querySelector('.check').textContent='✓';
   document.querySelectorAll('.proj-card').forEach(card=>{
@@ -64,24 +66,42 @@ contactForm.addEventListener('submit', async function(e){
   submitBtn.disabled = true;
   submitBtn.textContent = 'Sending...';
 
+  const data = new FormData(this);
+  const payload = {
+    name: data.get('name'),
+    email: data.get('email'),
+    message: data.get('message'),
+    website: data.get('website') // honeypot, should stay empty
+  };
+
   try {
-    const response = await fetch(this.action, {
+    // config.js missing, or the production placeholder never replaced
+    const base = (window.API_BASE_URL || '').replace(/\/+$/, '');
+    if (!base || base.includes('YOUR-RENDER-SERVICE')) {
+      const mail = document.querySelector('.contact-info-item[href^="mailto:"]');
+      throw new Error(`The contact form is not set up yet. Please email ${mail ? mail.textContent.trim() : 'me directly'}.`);
+    }
+
+    const response = await fetch(`${base}/api/contact`, {
       method: 'POST',
-      body: new FormData(this),
-      headers: { Accept: 'application/json' }
+      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify(payload)
     });
 
     if (!response.ok) {
-      throw new Error('Form submission failed');
+      const body = await response.json().catch(() => ({}));
+      throw new Error(body.error || 'Form submission failed');
     }
 
     this.reset();
+    if (window.trackEvent) window.trackEvent('contact_submit');
     formOk.style.display = 'block';
     submitBtn.textContent = 'Sent ✓';
   } catch (error) {
     submitBtn.disabled = false;
     submitBtn.textContent = originalLabel;
-    alert('Message could not be sent right now. Please try again or email me directly.');
+    const reason = error instanceof TypeError ? '' : `\n\n${error.message}`;
+    alert(`Message could not be sent right now. Please try again or email me directly.${reason}`);
     return;
   }
 

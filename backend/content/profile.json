@@ -1,0 +1,79 @@
+{
+  "name": "Vanshika Singh Chauhan",
+  "jobTitle": "Backend Developer",
+  "tagline": "Backend Developer | Java & Spring Boot Enthusiast | Competitive Programmer",
+  "about": [
+    "Vanshika Singh Chauhan is a backend developer from Jaipur, India, and a B.Tech Information Technology student at SKIT Jaipur who builds secure, scalable REST APIs and AI-powered applications with Java, Spring Boot and Spring AI.",
+    "As a B.Tech IT student at SKIT Jaipur, I'm deeply immersed in backend engineering and algorithmic problem-solving. My journey is fueled by a drive to build scalable, secure systems — from REST APIs to AI-powered assistants using Spring Boot and Spring AI.",
+    "Beyond backend work, I'm a competitive programmer with 550+ solved problems across LeetCode, GeeksforGeeks, CodeChef, and Codeforces. I qualified Smart India Hackathon 2025 (Round 1) and constantly push myself through weekly contests to sharpen my problem-solving edge."
+  ],
+  "email": "chauhanvanshika277@gmail.com",
+  "phone": "",
+  "location": {
+    "city": "Jaipur",
+    "region": "Rajasthan",
+    "country": "India",
+    "countryCode": "IN"
+  },
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/VanshikaSingh277"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/vanshika-singh-chauhan-288bb2321/"
+    },
+    {
+      "label": "Codolio",
+      "url": "https://codolio.com/profile/vanshika277"
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Technology — Information Technology",
+    "degreeShort": "B.Tech Information Technology",
+    "institution": "SWAMI KESHVANAND INSTITUTE OF TECHNOLOGY",
+    "institutionShort": "SKIT Jaipur",
+    "startYear": "2023",
+    "endYear": "2027",
+    "location": "Jaipur, Rajasthan",
+    "cgpa": "9.00",
+    "cgpaScale": "10.00"
+  },
+  "resumeFile": "VANSHIKA_RESUME.pdf",
+  "seoTitle": "Vanshika Singh Chauhan | Java Spring Boot Backend Developer",
+  "seoDescription": "Vanshika Singh Chauhan is a backend developer from Jaipur building secure REST APIs with Java, Spring Boot and Spring AI. B.Tech IT at SKIT, 550+ DSA solved.",
+  "siteUrl": "https://vanshikasingh.vercel.app/",
+  "photo": "assets/images/VSC.jpeg",
+  "photoAlt": "Portrait of Vanshika Singh Chauhan, backend developer from Jaipur",
+  "ogImage": "assets/images/og_banner.jpg",
+  "ogImageAlt": "Vanshika Singh Chauhan — Backend Developer portfolio",
+  "themeColor": "#0a0d14",
+  "gaId": "G-XXXXXXXXXX",
+  "faq": [
+    {
+      "question": "Who is Vanshika Singh Chauhan?",
+      "answer": "Vanshika Singh Chauhan is a backend developer from Jaipur, India, and a B.Tech Information Technology student at Swami Keshvanand Institute of Technology (SKIT), Jaipur. She builds secure, scalable REST APIs and AI-powered applications with Java, Spring Boot and Spring AI."
+    },
+    {
+      "question": "What does Vanshika Singh Chauhan specialise in?",
+      "answer": "She specialises in backend development with Java, Spring Boot, Spring Security, JPA/Hibernate and JWT authentication, and in AI integrations with Spring AI. She is also a competitive programmer with 550+ problems solved across LeetCode, GeeksforGeeks, CodeChef and Codeforces."
+    },
+    {
+      "question": "What is Vanshika's current role?",
+      "answer": "She is a Research Intern in Generative AI at Malaviya National Institute of Technology (MNIT), Jaipur, working on large language models, prompt engineering, document understanding and AI workflow automation."
+    },
+    {
+      "question": "Where does Vanshika study?",
+      "answer": "She is pursuing a Bachelor of Technology in Information Technology at Swami Keshvanand Institute of Technology (SKIT), Jaipur (2023–2027), with a CGPA of 9.00 out of 10."
+    },
+    {
+      "question": "What projects has Vanshika built?",
+      "answer": "Her projects include a Security Management System that migrated a legacy EJB application to Spring Boot MVC with JWT and role-based access control, Smart Email Assist, an AI email-reply assistant built with Spring AI and the Gemini API, and this responsive portfolio website."
+    },
+    {
+      "question": "How can I contact Vanshika Singh Chauhan?",
+      "answer": "Email her at chauhanvanshika277@gmail.com, use the contact form on this site, or connect with her on LinkedIn or GitHub."
+    }
+  ]
+}

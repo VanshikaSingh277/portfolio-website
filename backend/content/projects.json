@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "id": "Backend",
+      "label": "Backend"
+    },
+    {
+      "id": "AI",
+      "label": "AI / Automation"
+    },
+    {
+      "id": "Frontend",
+      "label": "Frontend"
+    }
+  ],
+  "items": [
+    {
+      "id": "security-management-system",
+      "title": "Security Management System",
+      "category": "Backend",
+      "date": "Jun 2025",
+      "thumbText": "SECURITY",
+      "thumbLabel": "Backend",
+      "icon": "🔐",
+      "thumbBackground": "",
+      "description": "Modernized a legacy EJB-based application into a Spring Boot MVC architecture with secure authentication, REST APIs, and role-based access control.",
+      "techs": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "JWT",
+        "JPA",
+        "Angular"
+      ],
+      "links": [],
+      "note": "Client Project • Confidential"
+    },
+    {
+      "id": "smart-email-assist",
+      "title": "Smart Email Assist",
+      "category": "AI",
+      "date": "2025",
+      "thumbText": "SMART AI",
+      "thumbLabel": "AI · Backend",
+      "icon": "✉️",
+      "thumbBackground": "linear-gradient(135deg,#1a2535,#0f1a28)",
+      "description": "AI-powered email assistant built with Spring AI and Gemini API that generates intelligent email replies through prompt-driven automation.",
+      "techs": [
+        "Java",
+        "Spring Boot",
+        "Spring AI",
+        "Gemini API",
+        "React"
+      ],
+      "links": [
+        {
+          "label": "View Details ↗",
+          "url": "https://github.com/VanshikaSingh277/Email-assist"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "portfolio-website",
+      "title": "Personal Portfolio Website",
+      "category": "Frontend",
+      "date": "2026",
+      "thumbText": "PORTFOLIO",
+      "thumbLabel": "Frontend",
+      "icon": "🌐",
+      "thumbBackground": "linear-gradient(135deg,#1b2335,#111827)",
+      "description": "Fully responsive portfolio website showcasing projects, skills, coding profiles, experience, and achievements with modern UI, animations, and dark/light mode support.",
+      "techs": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Responsive Design"
+      ],
+      "links": [
+        {
+          "label": "🌐 Live Demo ↗",
+          "url": "https://vanshikasingh.vercel.app/"
+        },
+        {
+          "label": "💻 GitHub Repository ↗",
+          "url": "https://github.com/VanshikaSingh277/portfolio"
+        }
+      ],
+      "note": ""
+    }
+  ]
+}
